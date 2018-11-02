@@ -34,8 +34,10 @@ export HOMEBREW_GITHUB_API_TOKEN=[EDITED]
 # Git credentials
 GIT_AUTHOR_NAME="my name"
 GIT_AUTHOR_EMAIL="my_email@ddre.ss"
+GIT_AUTHOR_GPG=[EDITED]
 git config --global user.name "$GIT_AUTHOR_NAME"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
+git config --global user.signingkey "$GIT_AUTHOR_GPG"
 ```
 
 ## Author
