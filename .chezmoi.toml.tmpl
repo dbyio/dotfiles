@@ -1,0 +1,10 @@
+{{- $name := promptStringOnce . "name" "Full Name" -}}
+{{- $email := promptStringOnce . "email" "Email address" -}}
+{{- $gpg_keyid := promptStringOnce . "gpg_keyid" "GPG Signkey ID" -}}
+
+{{- $github_user := "dbyio" -}}
+
+[data]
+    name = {{ $name | quote }}
+    email = {{ $email | quote }}
+    gpg_keyid = {{ $gpg_keyid | quote }}
