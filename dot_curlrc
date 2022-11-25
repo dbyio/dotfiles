@@ -1,4 +1,4 @@
-# Disguise as IE 9 on Windows 7.
+# Disguise as Firefox on Linux
 user-agent = "Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0""
 
 # When following a redirect, automatically set the previous URL as referer.
