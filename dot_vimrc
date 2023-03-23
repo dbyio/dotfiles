@@ -18,9 +18,9 @@ set encoding=utf-8 nobomb
 set binary
 set noeol
 " Centralize backups, swapfiles and undo history
-set backupdir=~/.local/vim/backups
-set directory=~/.local/vim/swaps
-set undodir=~/.local/vim/undo
+set backupdir=~/.cache/vim/backups
+set directory=~/.cache/vim/swaps
+set undodir=~/.cache/vim/undo
 " Don’t create backups when editing files in certain directories
 set backupskip=/tmp/*,/private/tmp/*
 " Respect modeline in files (anywhere in top 5 lines)
