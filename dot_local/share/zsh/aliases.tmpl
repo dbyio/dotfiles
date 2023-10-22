@@ -40,7 +40,7 @@ alias sudo='sudo '
 alias week='date +%V'
 
 # IP addresses
-alias whatsmyip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias whatsmyip="dig @ns1.google.com TXT o-o.myaddr.l.google.com +short"
 
 # Recursively delete `.DS_Store` files
 alias cleanup-dsstore="find . -type f -name '*.DS_Store' -ls -delete"
