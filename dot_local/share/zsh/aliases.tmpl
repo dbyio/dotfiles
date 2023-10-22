@@ -45,7 +45,7 @@ alias whatsmyip="dig @ns1.google.com TXT o-o.myaddr.l.google.com +short"
 # Recursively delete `.DS_Store` files
 alias cleanup-dsstore="find . -type f -name '*.DS_Store' -ls -delete"
 
-# One of @janmoesen’s ProTip™s
+# Alias HTTP methods
 for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
     alias "${method}"="lwp-request -m '${method}'"
 done
@@ -62,7 +62,7 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 alias mergepdf='/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py'
 
 # Lock the screen (when going AFK)
-alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+alias afk="pmset displaysleepnow"
 
 # PlistBuddy alias, because sometimes `defaults` just doesn’t cut it
 alias plistbuddy="/usr/libexec/PlistBuddy"
